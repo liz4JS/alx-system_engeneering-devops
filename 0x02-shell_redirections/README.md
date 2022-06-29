@@ -14,3 +14,4 @@ sort | uniq -u-it takes a list of words as input and prints only words that appe
 grep -e "root" /etc/passwd- it display lines containing the pattern from the file
 grep -c "bin" /etc/passwd-it display the number of lines that contain the pattern in the file
 grep -A 3 "root" /etc/passwd-it display lines containing the pattern and 3 lines after them in the file
+grep -v "bin" /etc/passwd-it display all the lines in the file that do not contain the pattern
