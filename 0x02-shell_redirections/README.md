@@ -7,3 +7,5 @@ tail /etc/passwd-it displays the last 10 lines of /etc/passwd
 echo Best School > '\*\\'"'"'"Best School"\'"'"'\\*$\?\*\*\*\*\*:)'-it creates a file containing the text best school ending by a new line
 ls -la > ls_cwd_content-it writes into the file the result of the command. if the file already exists, it should overwrite it. if the file doesn't exist, create it
 tail -n 1 iacta >> iacta-it duplicates the last line of the file
+find . -type f -name "*.js" -delete-it deletes all regular files(not the directories) with a extension that are present in the current directory and its subfolders
+
