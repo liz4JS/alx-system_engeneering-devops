@@ -9,3 +9,4 @@ ls -la > ls_cwd_content-it writes into the file the result of the command. if th
 tail -n 1 iacta >> iacta-it duplicates the last line of the file
 find . -type f -name "*.js" -delete-it deletes all regular files(not the directories) with a extension that are present in the current directory and its subfolders
 find ./* -type d | wc -l-it counts the number of directories and sub-directories in the current directory. the current and parent directories should not be taken into account. hidden directories should be counted
+ls -t -1 | head-it displays the 10 newest files in the current directory
