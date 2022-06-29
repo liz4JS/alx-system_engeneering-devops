@@ -4,4 +4,4 @@ echo "\"(Ôo)'"- it displays a confused smiley
 cat /etc/passwd -delete- it displays the content of the /etc/passwd file
 cat /etc/passwd /etc/hosts- it displays the content of /etc/passwd and /etc/host
 tail /etc/passwd-it displays the last 10 lines of /etc/passwd
-head -n 3 iacta | tail -n 1-it displays the third line of the file iacta
+echo Holberton School > '\*\\'"'"'"Holberton School"\'"'"'\\*$\?\*\*\*\*\*:)'-it creates a file named \*\\'"Best school"\'\\*$\?\*\*\*\*\*:) containing the text best school ending by a new line
