@@ -17,3 +17,4 @@ grep -A 3 "root" /etc/passwd-it display lines containing the pattern and 3 lines
 grep -v "bin" /etc/passwd-it display all the lines in the file that do not contain the pattern
 grep ^[a-zA-Z] /etc/ssh/sshd_config-it display all lines of the file starting with a letter include capital letters as well
 tr A Z | tr c e- it replace all characters and from input to and respectively
+tr -d c | tr -d C-it removes all letters from input
