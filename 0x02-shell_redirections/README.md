@@ -15,3 +15,4 @@ grep -e "root" /etc/passwd- it display lines containing the pattern from the fil
 grep -c "bin" /etc/passwd-it display the number of lines that contain the pattern in the file
 grep -A 3 "root" /etc/passwd-it display lines containing the pattern and 3 lines after them in the file
 grep -v "bin" /etc/passwd-it display all the lines in the file that do not contain the pattern
+grep ^[a-zA-Z] /etc/ssh/sshd_config-it display all lines of the file starting with a letter include capital letters as well
