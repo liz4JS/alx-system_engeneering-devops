@@ -12,3 +12,4 @@ find ./* -type d | wc -l-it counts the number of directories and sub-directories
 ls -t -1 | head-it displays the 10 newest files in the current directory
 sort | uniq -u-it takes a list of words as input and prints only words that appear exactly once. input format: one line, one word. output format: one line, one word. words shoulld be sorted
 grep -e "root" /etc/passwd- it display lines containing the pattern from the file
+grep -c "bin" /etc/passwd-it display the number of lines that contain the pattern in the file
