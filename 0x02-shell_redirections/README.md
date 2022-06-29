@@ -18,3 +18,4 @@ grep -v "bin" /etc/passwd-it display all the lines in the file that do not conta
 grep ^[a-zA-Z] /etc/ssh/sshd_config-it display all lines of the file starting with a letter include capital letters as well
 tr A Z | tr c e- it replace all characters and from input to and respectively
 tr -d c | tr -d C-it removes all letters from input
+cut -d":" -f1,6 /etc/passwd | sort-it displays all users and their home directories, sorted by users. based on the file
