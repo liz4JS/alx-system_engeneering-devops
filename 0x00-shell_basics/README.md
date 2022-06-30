@@ -13,3 +13,4 @@ ls -l -a . .. /boot- it lists all files (even ones with names beginning with a p
 file /tmp/iamafile-it prints the type of the file named iamafile. the file iamafile will be in the /tmp directory when we will run your script
 ln -s /bin/ls ./__ls__-it create a symbolic limk to /bin/ls, named __ls__. the symbolic link should be created in the current working directory
 cp -u ./*.html ../-it create a script that copies all the HTML files from the current working directory to the parent of the working directory or were newer than the versions in the parent of the working directory
+mv [[:upper:]]* /tmp/u- it moves all files beginning with an uppercase letter to the directory /tmp/u
