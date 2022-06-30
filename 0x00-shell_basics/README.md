@@ -15,3 +15,4 @@ ln -s /bin/ls ./__ls__-it create a symbolic limk to /bin/ls, named __ls__. the s
 cp -u ./*.html ../-it create a script that copies all the HTML files from the current working directory to the parent of the working directory or were newer than the versions in the parent of the working directory
 mv [[:upper:]]* /tmp/u- it moves all files beginning with an uppercase letter to the directory /tmp/u
 rm ./*~-it deletes all files in the current working directory that end with character ~
+mkdir -p welcome/to/school- it creates the directories welcome/, welcome/to and welcome/to/school
