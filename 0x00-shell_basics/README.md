@@ -7,3 +7,4 @@ ls -la- itdisplays the current directory contents in long format, with user and 
 mkdir- it creates a new directory
 mv /tmp/betty /tmp/my_first_directory- move file(betty) to /tmp/my_first_directory
 rm /tmp/my_first_directory/betty- it delete the file betty
+rm -r /tmp/my_first_directory- it delete the directory my_first_directory that is in the /tmp directory
