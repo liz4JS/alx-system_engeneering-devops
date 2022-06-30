@@ -6,3 +6,4 @@ ls -la- it displays the current directory contents, including hidden files (star
 ls -la- itdisplays the current directory contents in long format, with user and group IDs displayed numerically and hidden files
 mkdir- it creates a new directory
 mv /tmp/betty /tmp/my_first_directory- move file(betty) to /tmp/my_first_directory
+rm /tmp/my_first_directory/betty- it delete the file betty
