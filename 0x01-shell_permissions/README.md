@@ -9,3 +9,4 @@ chmod +114 hello-it adds execute permission to the owner and the group owner, an
 chmod +x hello-it adds execution permission to the owner, the group owner and the other users, to the file
 chmod 007 hello-it sets the permission to the file hello as follows; owner:no permission at all. group:no permission at all. other users:all the permissions
 chmod 753 hello-it sets the mode of the file hello to this: the file hello will be in the working directory. you are not allowed to use commas for the script
+chmod --reference=olleh hello-it sets the mode of the file hello the same as olleh's mode. the file hello will be in the working directory. the file olleh will be in the working directory
