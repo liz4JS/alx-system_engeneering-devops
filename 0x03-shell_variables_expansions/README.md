@@ -5,3 +5,4 @@ export PATH=$PATH:/action-it add /action to the path. /action should be the last
 echo $PATH | tr : "\n" | wc -l-it counts the number of directories in the path
 printenv | less-it lists environment variables
 set | less-it lists all local variables and environment variables, and functions
+export BETTY=School-it creates a new local variable
