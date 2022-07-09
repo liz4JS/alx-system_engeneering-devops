@@ -7,4 +7,4 @@ printenv | less-it lists environment variables
 set | less-it lists all local variables and environment variables, and functions
 export BEST=School-it creates a new local variable
 export BEST=School-it creates a new global variable
-echo $((128+$TRUEKNOWLEDGE))-it prints the result of the addition of 128 with the value stored in the environment variable trueknowledge, followed by a new line 
+echo $((128+$TRUEKNOWLEDGE))-it prints the result of the addition of 128 with the value stored in the environment variable trueknowledge, followed by a new lineecho $(($POWER/$DIVIDE))-it prints the result of power divided by divide, followed by a new line. power and divide are environment variables
