@@ -11,3 +11,4 @@ echo $((128+$TRUEKNOWLEDGE))-it prints the result of the addition of 128 with th
 echo $(($BREATH**$LOVE))-it displays the result of breath to the power love. breath and love are environment variebles. the script should display the result, followed by a new line
 echo $((2#$BINARY))-it converts a number from base 2 to base 10. the number in base 2 is stored in the environment variable binary. the script should display the number in base 10, followed by a new line
 echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"-it prints all possible combinatios of two letters, except oo. letters are lower cases, from a to z. one combination per line. the output should be alpha ordered, starting with aa. dont print oo. your script file should contain maximum 64 characters
+printf "%.2f\n" $NUM-it prints a number with two decimal places, followed by a new line. the number will be stored in the environment variable num
