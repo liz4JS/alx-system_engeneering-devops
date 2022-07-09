@@ -6,5 +6,5 @@ echo $PATH | tr : "\n" | wc -l-it counts the number of directories in the path
 printenv | less-it lists environment variables
 set | less-it lists all local variables and environment variables, and functions
 export BEST=School-it creates a new local variable
-export SCHOOL=Best-it creates a new global variable
+export BEST=School-it creates a new global variable
 echo $((128+$TRUEKNOWLEDGE))-it prints the result of the addition of 128 with the value stored in the environment variable trueknowledge, followed by a new line 
